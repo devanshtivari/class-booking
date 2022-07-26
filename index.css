@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+
+#container{
+    max-width: 1132px;
+    height: 100%;
+    width: 100%;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+#box{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    height: 40px;
+}
+#basic-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
