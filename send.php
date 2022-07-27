@@ -20,15 +20,15 @@
 
     if(mysqli_query($conn,$query)){
         echo
-        `
+        '
             <h1>Data inserted successfully</h1>
-        `;
+        ';
     }
     else{
         echo
-        `
+        '
             <h1>Error in progressing data</h1>
-        `;
+        ';
     }
     mysqli_close($conn);
 ?>
