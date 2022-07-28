@@ -14,9 +14,8 @@
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $age = $_POST['age'];
-    $class = $_POST['class'];
+    $query = "INSERT INTO student_data(Name , Email , Phone, Age) VALUES ('$name' , '$email' , '$phone' , '$age' )";
 
-    $query = "INSERT INTO student_data(Name , Email , Phone Number , Class , Age) VALUES ('$name' , '$email' , '$phone' , '$age' , '$class')";
 
     if(mysqli_query($conn,$query)){
         echo
